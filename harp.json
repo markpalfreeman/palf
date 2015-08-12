@@ -1,0 +1,9 @@
+{
+  "globals": {
+    "basicAuth": [],
+    "title": "Palf",
+    "name": "Mark Palfreeman",
+    "description": "Front-end developer in Seattle, WA",
+    "uri": "http://palf.co"
+  }
+}
