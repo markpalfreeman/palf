@@ -7,10 +7,13 @@ html(lang='en')
     link(rel='stylesheet', href='/css/main.css')
   body(class='page-#{ current.path[0] }')
     header.header
-      != partial('_partials/header')
+      .container.flex-even
+        != partial('_partials/header')
     
     main
-      != yield  
+      article.container
+        != yield  
     
     footer.footer
-      != partial('_partials/footer')
+      .container
+        != partial('_partials/footer')

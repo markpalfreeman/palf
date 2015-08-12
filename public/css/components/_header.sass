@@ -2,11 +2,22 @@
   background-color: $yellow
   color: slate
 
-  a
-    &:not(:first-of-type)
-      margin-left: 1em
-
-
 .logo
+  font-size: 2em
+  text-transform: uppercase
+
   a
     color: initial
+
+nav
+  display: flex
+
+.nav-link
+  align-self: center;
+
+  &:not(:first-of-type)
+    margin-left: 1em  
+
+@media screen and (min-width: 57em)
+  .logo
+    font-size: 3em
