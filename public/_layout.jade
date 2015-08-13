@@ -14,11 +14,11 @@ html(lang='en')
     header.header
       .container.flex-even
         != partial('_partials/header')
-    
+
     main
       article.container
         != yield  
     
     footer.footer
-      .container
+      .container.flex-even
         != partial('_partials/footer')

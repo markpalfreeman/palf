@@ -1,3 +1,4 @@
-h2 Blog
-
-p Posts to come. For now, follow me on #[a(href='https://medium.com/@markpalfreeman/latest') Medium].
+for post, slug in public.posts._data
+  article.blog-post
+    h2.blog-post-title: a(href="/posts/#{ slug }")= post.title
+    != partial("posts/" + slug)
