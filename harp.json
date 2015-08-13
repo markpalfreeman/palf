@@ -1,9 +1,9 @@
 {
   "globals": {
     "basicAuth": [],
-    "title": "Palf",
+    "site_title": "Mark Palfreeman",
     "name": "Mark Palfreeman",
-    "description": "Front-end developer in Seattle, WA",
+    "site_description": "Mark is a front-end web developer in Seattle, WA",
     "uri": "http://palf.co"
   }
 }

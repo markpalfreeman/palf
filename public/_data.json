@@ -1,0 +1,14 @@
+{
+  "about": {
+    "title": "About",
+    "description": ""
+  },
+  "blog": {
+    "title": "Blog",
+    "description": ""
+  },
+  "work": {
+    "title": "Work",
+    "description": ""
+  }
+}
