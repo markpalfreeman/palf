@@ -1,3 +1,5 @@
+# Your Developers Might Have Skills, But Do They Have Character?
+
 It didn’t take long working in web development to learn that working with people can be hard.
 
 Hard to work with others, hard to approach them with questions, or hard to feel comfortable as “the new guy.” Not the new guy to a company — everyone eventually figures that out. I mean the one that knows the least. I’m probably that guy when it comes to skills and experience at my current company.

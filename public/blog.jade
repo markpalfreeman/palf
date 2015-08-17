@@ -1,4 +1,5 @@
 for post, slug in public.posts._data
-  article.blog-post
-    h2.blog-post-title: a(href="/posts/#{ slug }")= post.title
-    != partial("posts/" + slug)
+  article.blog-excerpt
+    a(href="/posts/#{ slug }")
+      h3.blog-post-title= post.title
+      p= post.date
