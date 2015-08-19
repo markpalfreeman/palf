@@ -1,5 +1,5 @@
-for post, slug in public.posts._data
+for post, slug in public.blog._data
   article.blog-excerpt
-    a(href="/posts/#{ slug }")
+    a(href="/blog/#{ slug }")
       h3.blog-post-title= post.title
       p= post.date
