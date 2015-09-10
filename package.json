@@ -1,0 +1,32 @@
+{
+  "name": "palf",
+  "version": "1.0.0",
+  "description": "Mark Palfreeman",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/markpalfreeman/palf.git"
+  },
+  "keywords": [
+    "web developer",
+    "javascript",
+    "html",
+    "css",
+    "react",
+    "blog",
+    "web development",
+    "front-end"
+  ],
+  "author": "Mark Palfreeman <mark@palf.co>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markpalfreeman/palf/issues"
+  },
+  "homepage": "https://github.com/markpalfreeman/palf",
+  "dependencies": {
+    "standard": "^5.2.2"
+  }
+}
