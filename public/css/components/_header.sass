@@ -1,29 +1,53 @@
 .main-header
   background-color: $yellow
-  color: slate
 
-.logo
-  font-size: 2em
-  margin: 0
-  text-transform: uppercase
+  &__logo
+    font-size: 2em
+    margin: 0
+    text-transform: uppercase
 
-  a
-    color: initial
+  &__avatar
+    display: none
 
-nav
+.main-nav
   display: flex
 
-.nav-link
-  align-self: center;
+  &__link
+    align-self: center
 
-  &:not(:first-of-type)
-    margin-left: 1em  
+    &:not(:first-of-type)
+      margin-left: 1em
 
-  &.current-page
-    font-weight: bold
-    text-decoration: underline
-  
+    &.current-page
+      font-weight: bold
+      box-shadow: 0 2px 0 0 $black
 
-@media screen and (min-width: 57em)
-  .logo
-    font-size: 3em
+@media screen and (min-width: #{$large-screen})
+
+  .main-header
+
+    &__logo
+      display: none
+      // font-size: 3em
+
+    &__avatar
+      display: block
+      border-radius: 50%
+
+    .container
+      display: flex
+      flex-direction: column
+      align-items: baseline
+      justify-content: space-between
+      height: 100%
+
+  .main-nav
+    flex-direction: column
+    width: 100%
+
+    &__link
+      align-self: center
+      margin-top: 1em
+
+      &:not(:first-of-type)
+        margin-left: 0
