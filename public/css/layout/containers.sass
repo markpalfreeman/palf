@@ -1,4 +1,7 @@
-body > *
+// Variables:
+$sidebar-width: 15rem
+
+.main-header, main, .main-footer
   padding: 1rem
 
 main
@@ -8,10 +11,19 @@ main
   width: 100%
   margin: auto
 
-@media screen and (min-width: 27em)
+@media screen and (min-width: #{$medium-screen})
   .container
-    max-width: 40rem 
-  
-@media screen and (min-width: 57em)
-  body > *
+    max-width: 40rem
+
+@media screen and (min-width: #{$large-screen})
+  main, .main-footer
     padding: 2rem 0
+    margin-left: $sidebar-width
+
+  .main-header
+    position: fixed
+    padding: 2rem
+    bottom: 0
+    left: 0
+    top: 0
+    width: $sidebar-width
