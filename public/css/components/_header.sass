@@ -2,12 +2,13 @@
   background-color: $yellow
 
   &__logo
-    font-size: 2em
-    margin: 0
     text-transform: uppercase
 
-  &__avatar
-    display: none
+    &--name
+      margin: 0
+
+    &--avatar
+      display: none
 
 .main-nav
   display: flex
@@ -27,12 +28,13 @@
   .main-header
 
     &__logo
-      display: none
-      // font-size: 3em
 
-    &__avatar
-      display: block
-      border-radius: 50%
+      &--name
+        display: none
+
+      &--avatar
+        display: block
+        border-radius: 50%
 
     .container
       display: flex

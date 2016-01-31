@@ -1,5 +1,7 @@
-img.main-header__avatar(src='https://pbs.twimg.com/profile_images/622425873006735360/6Yy5Cjwf_400x400.jpg' title='Mark Palfreeman')
-h1.main-header__logo: a(href='/') Palf
+.main-header__logo  
+  h1.main-header__logo--name: a(href='/') Palf
+  img.main-header__logo--avatar(src='https://pbs.twimg.com/profile_images/622425873006735360/6Yy5Cjwf_400x400.jpg' title='Mark Palfreeman')
+
 nav.main-nav
   a.main-nav__link(href='https://medium.com/@markpalfreeman/latest' target='blank') Blog
   a.main-nav__link(href='/about' class='#{ current.source == "about" ? "current-page" : "" }') About
