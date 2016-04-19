@@ -27,6 +27,6 @@
   },
   "homepage": "https://github.com/markpalfreeman/palf",
   "dependencies": {
-    "standard": "^5.2.2"
+    "standard": "^6.0.8"
   }
 }
