@@ -4,6 +4,7 @@
   "description": "Mark Palfreeman",
   "main": "app.js",
   "scripts": {
+    "start": "next",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -27,6 +28,13 @@
   },
   "homepage": "https://github.com/markpalfreeman/palf",
   "dependencies": {
-    "standard": "^7.1.0"
+    "babel-plugin-styled-components": "^1.2.0",
+    "next": "^3.0.6",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "styled-components": "^2.1.2"
+  },
+  "devDependencies": {
+    "now": "^7.4.0"
   }
 }
