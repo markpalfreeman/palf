@@ -4,8 +4,10 @@
   "description": "Mark Palfreeman",
   "main": "app.js",
   "scripts": {
-    "start": "next",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next",
+    "build": "next build && next export",
+    "start": "next start",
+    "deploy": "npm run build && surge out palf.co"
   },
   "repository": {
     "type": "git",
