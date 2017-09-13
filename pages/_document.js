@@ -16,6 +16,7 @@ class Html extends Document {
           <meta name="author" content="Mark Palfreeman" />
           <title>Mark Palfreeman</title>
           {styleTags}
+          <link rel="stylesheet" type="text/css" href="/static/global.css" />
         </Head>
         <body>
           <div>{main}</div>

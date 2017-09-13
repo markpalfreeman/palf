@@ -6,6 +6,10 @@ const PageHeader = styled.header`
   background-color: ${color.yellow};
   padding: 1rem;
 
+  a {
+    text-decoration: none;
+  }
+
   .logo {
     text-transform: uppercase;
     cursor: pointer;

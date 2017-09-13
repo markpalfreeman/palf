@@ -21,14 +21,6 @@ const Body = styled.div`
     display: flex;
     justify-content: space-between;
   }
-
-  img {
-    width: 100%;
-  }
-
-  * {
-    box-sizing: border-box;
-  }
 `
 
 const Main = styled.main`

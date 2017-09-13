@@ -1,2 +1,3 @@
-# palf
-Mark Palfreeman - home page / blog
+# Palf
+Mark Palfreeman - personal website
+
