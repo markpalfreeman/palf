@@ -94,7 +94,7 @@ function Header() {
             </h1>
             <img
               className="logo--avatar"
-              src="https://pbs.twimg.com/profile_images/622425873006735360/6Yy5Cjwf_400x400.jpg"
+              src="https://en.gravatar.com/userimage/2443449/852a9e7951c7f1257c1eb91b682caf42.jpg?size=600"
               title="Mark Palfreeman"
             />
           </div>
