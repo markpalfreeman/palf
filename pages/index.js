@@ -8,8 +8,7 @@ function Index(props) {
     <Layout>
       <div className="container">
         <h2>
-          I'm Mark.<br />
-          Some people call me "Palf."
+          I'm Mark.
         </h2>
         <p>
           I'm a front-end web developer in Seattle passionate about creating user-first experiences
