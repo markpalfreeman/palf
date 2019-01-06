@@ -10,9 +10,16 @@ class Html extends Document {
       <html lang="en-us">
         <Head>
           <meta http-equiv="X-UA-Compatible" />
-          <meta name="viewport" content="width=device-width" initial-scale="1.0" />
+          <meta
+            name="viewport"
+            content="width=device-width"
+            initial-scale="1.0"
+          />
           <meta description="Front-end web developer in Seattle, WA" />
-          <meta name="keywords" content="HTML, CSS, JavaScript, React, Web Development, Frontend" />
+          <meta
+            name="keywords"
+            content="HTML, CSS, JavaScript, React, Web Development, Frontend"
+          />
           <meta name="author" content="Mark Palfreeman" />
           <title>Mark Palfreeman</title>
           {styleTags}

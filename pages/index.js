@@ -7,25 +7,25 @@ function Index(props) {
   return (
     <Layout>
       <div className="container">
-        <h2>
-          I'm Mark.
-        </h2>
+        <h2>I'm Mark.</h2>
         <p>
-          I'm a front-end web developer in Seattle passionate about creating user-first experiences
-          with concise, modular, semantic code in the presentation layer.
+          I'm a UI engineer in the Seattle area building delightful modern user
+          experiences on the web.
         </p>
         <p>
-          I'm also an advocate for people-first, collaborative company culture, remote work, and
-          constant learning.
+          I'm also an advocate for people-first, collaborative company culture,
+          remote work, and constant learning.
         </p>
         <hr />
         <p>
-          This site is a constant work in progress as I learn new things, and the code is public on
-          my <a href="https://github.com/markpalfreeman">Github</a>.
+          This site is a constant work in progress as I learn new things, and
+          the code is public on my{' '}
+          <a href="https://github.com/markpalfreeman">GitHub</a>.
         </p>
         <p>
-          Reach me on Twitter at <a href="https://twitter.com/markpalfreeman">@markpalfreeman</a> or
-          by email at <a href="mailto:mark@palf.co">mark@palf.co</a>.
+          Feel free to reach me on Twitter at{' '}
+          <a href="https://twitter.com/markpalfreeman">@markpalfreeman</a> or by
+          email at <a href="mailto:mark@palf.co">mark@palf.co</a>.
         </p>
       </div>
     </Layout>

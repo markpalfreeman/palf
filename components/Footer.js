@@ -1,9 +1,10 @@
 import styled from 'styled-components'
-import { layout, screenSize } from '../styles/variables'
+import { color, layout, screenSize } from '../styles/variables'
 
 const PageFooter = styled.footer`
   font-size: 0.65em;
   padding: 1rem;
+  color: ${color.gray};
 
   p {
     margin: 0;

@@ -1,11 +1,12 @@
 import Header from './Header'
 import Footer from './Footer'
 import styled from 'styled-components'
-import { layout, screenSize } from '../styles/variables'
+import { color, layout, screenSize } from '../styles/variables'
 
 const Body = styled.div`
   .container {
     width: 100%;
+    height: 100%;
     margin: auto;
 
     @media screen and (min-width: ${screenSize.medium}) {
@@ -24,7 +25,7 @@ const Body = styled.div`
 `
 
 const Main = styled.main`
-  border-bottom: 1px solid lightgray;
+  border-bottom: 1px solid ${color.gray};
   padding: 1rem;
 
   @media screen and (min-width: ${screenSize.large}) {

@@ -3,11 +3,20 @@ import styled from 'styled-components'
 import { color, layout, screenSize } from '../styles/variables'
 
 const PageHeader = styled.header`
-  background-color: ${color.yellow};
-  padding: 1rem;
+  background-color: ${color.red};
+  padding: 0.5rem 1rem;
+  position: relative;
+  overflow: hidden;
+  height: 4rem;
 
   a {
     text-decoration: none;
+    color: ${color.tan};
+
+    &:hover {
+      color: ${color.black};
+      background: white;
+    }
   }
 
   .logo {
@@ -16,10 +25,16 @@ const PageHeader = styled.header`
 
     &--name {
       margin: 0;
+      display: none;
     }
 
     &--avatar {
-      display: none;
+      position: absolute;
+      mix-blend-mode: multiply;
+      border-radius: 50%;
+      width: 6rem;
+      margin-left: -1.5rem;
+      margin-top: -1.2rem;
     }
   }
 
@@ -47,6 +62,7 @@ const PageHeader = styled.header`
     left: 0;
     top: 0;
     width: ${layout.sidebarWidth};
+    height: 100%;
 
     .logo {
       &--name {
@@ -54,8 +70,10 @@ const PageHeader = styled.header`
       }
 
       &--avatar {
-        display: block;
-        border-radius: 50%;
+        position: static;
+        width: 280%;
+        margin-left: -100%;
+        margin-top: -30%;
       }
     }
 
@@ -94,13 +112,17 @@ function Header() {
             </h1>
             <img
               className="logo--avatar"
-              src="https://en.gravatar.com/userimage/2443449/852a9e7951c7f1257c1eb91b682caf42.jpg?size=600"
+              src="https://secure.gravatar.com/avatar/5e5558cf846c5fc6841cf3720d190783?size=600"
               title="Mark Palfreeman"
             />
           </div>
         </Link>
         <nav className="nav" role="navigation">
-          <a className="nav__link" href="https://medium.com/@markpalfreeman/latest" target="blank">
+          <a
+            className="nav__link"
+            href="https://medium.com/@markpalfreeman/latest"
+            target="blank"
+          >
             Blog
           </a>
           <Link href="/about">

@@ -1,7 +1,8 @@
 export const color = {
-  black: '#24231E',
-  red: '#971B1F',
-  yellow: '#F8CD57'
+  black: '#242422',
+  red: '#CE3738',
+  tan: '#F3EDE8',
+  gray: '#4D4B42'
 }
 
 export const layout = {

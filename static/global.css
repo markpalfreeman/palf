@@ -1,6 +1,8 @@
 /* variables
- * black  = #24231E
- * yellow = #F8CD57
+ * black: #242422
+ * red: #CE3738
+ * tan: #F3EDE8
+ * gray: #4D4B42
  */
 
 html {
@@ -17,7 +19,7 @@ body {
   font-size: 20px;
   font-family: 'Georgia', serif;
   line-height: 1.2;
-  color: #24231e;
+  color: #242422;
 }
 
 h1,
@@ -44,13 +46,14 @@ p {
 }
 
 a {
-  box-shadow: 0 3px 0 0 #f8cd57;
-  color: #24231e;
+  box-shadow: 0 3px 0 0 #ce3738;
+  color: #242422;
   text-decoration: none;
 }
 
 a:hover {
-  background-color: #f8cd57;
+  background-color: #ce3738;
+  color: white;
 }
 
 img {
