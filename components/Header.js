@@ -113,17 +113,20 @@ function Header() {
             <img
               className="logo--avatar"
               src="https://secure.gravatar.com/avatar/5e5558cf846c5fc6841cf3720d190783?size=600"
-              title="Mark Palfreeman"
+              alt="Mark Palfreeman"
             />
           </div>
         </Link>
         <nav className="nav" role="navigation">
+          {/* active: add class "current-page" */}
+          <Link href="/about">
+            <a className="nav__link">About</a>
+          </Link>
           <a className="nav__link" href="https://medium.com/@markpalfreeman" target="blank">
             Blog
           </a>
-          <Link href="/about">
-            {/* active: add class "current-page" */}
-            <a className="nav__link">About</a>
+          <Link href="/now">
+            <a className="nav__link">Now</a>
           </Link>
         </nav>
       </div>
