@@ -1,4 +1,4 @@
 {
-  "plugins": [["styled-components", { "ssr": true, "displayName": true, "preprocess": false }]],
+  "plugins": ["styled-components"],
   "presets": ["next/babel"]
 }
