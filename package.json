@@ -7,7 +7,7 @@
     "dev": "next",
     "build": "next build && next export",
     "start": "next start",
-    "deploy": "npm run build && surge out palf.co"
+    "deploy": "npm run build && npx surge out palf.co"
   },
   "repository": {
     "type": "git",
