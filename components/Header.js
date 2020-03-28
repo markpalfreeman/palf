@@ -1,6 +1,6 @@
-import Link from 'next/link'
-import styled from 'styled-components'
-import { color, layout, screenSize } from '../styles/variables'
+import Link from "next/link";
+import styled from "styled-components";
+import { color, layout, screenSize } from "../styles/variables";
 
 const PageHeader = styled.header`
   background-color: ${color.red};
@@ -99,7 +99,7 @@ const PageHeader = styled.header`
       height: 100%;
     }
   }
-`
+`;
 
 function Header() {
   return (
@@ -118,11 +118,7 @@ function Header() {
           </div>
         </Link>
         <nav className="nav" role="navigation">
-          <a
-            className="nav__link"
-            href="https://medium.com/@markpalfreeman/latest"
-            target="blank"
-          >
+          <a className="nav__link" href="https://medium.com/@markpalfreeman" target="blank">
             Blog
           </a>
           <Link href="/about">
@@ -132,7 +128,7 @@ function Header() {
         </nav>
       </div>
     </PageHeader>
-  )
+  );
 }
 
-export default Header
+export default Header;
