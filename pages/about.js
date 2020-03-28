@@ -1,6 +1,6 @@
 import Layout from "../components/Layout";
 
-function About(props) {
+function About() {
   return (
     <Layout>
       <div className="container">

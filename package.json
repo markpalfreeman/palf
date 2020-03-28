@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "dev": "next",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "deploy": "npm run build && npx surge out palf.co"
   },

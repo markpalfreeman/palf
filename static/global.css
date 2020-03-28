@@ -17,7 +17,7 @@ html {
 body {
   margin: 0;
   font-size: 20px;
-  font-family: 'Georgia', serif;
+  font-family: "Georgia", serif;
   line-height: 1.2;
   color: #242422;
 }
@@ -58,4 +58,9 @@ a:hover {
 
 img {
   width: 100%;
+}
+
+ul li {
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
 }

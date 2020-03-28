@@ -1,6 +1,6 @@
 import Layout from "../components/Layout";
 
-function Now(props) {
+function Now() {
   return (
     <Layout>
       <div className="container">
@@ -34,8 +34,7 @@ function Now(props) {
             by John Mark Comer
           </li>
         </ul>
-        <h2> UI Development </h2>
-        <p>🟥🟩🟦🟨</p>
+        <h2>💻 UI Development </h2>
         <p>
           I’m at Microsoft working on a UI library of controls and components for use on the home and store pages of{" "}
           <a href="https://microsoft.com">microsoft.com</a>. It’s been a lesson “back to the basics” writing plain old
