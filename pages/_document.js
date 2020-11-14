@@ -9,7 +9,7 @@ class Html extends Document {
     return (
       <html lang="en-us">
         <Head>
-          <meta http-equiv="X-UA-Compatible" />
+          <meta httpEquiv="X-UA-Compatible" />
           <meta
             name="viewport"
             content="width=device-width"
