@@ -1,6 +1,6 @@
-import Layout from "../components/Layout";
-import styled from "styled-components";
-import { layout, screenSize } from "../styles/variables";
+import Layout from "../components/Layout"
+import styled from "styled-components"
+import {layout, screenSize} from "../styles/variables"
 
 function Index(props) {
   return (
@@ -20,7 +20,7 @@ function Index(props) {
         </p>
       </div>
     </Layout>
-  );
+  )
 }
 
-export default Index;
+export default Index

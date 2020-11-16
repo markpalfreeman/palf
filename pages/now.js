@@ -1,4 +1,4 @@
-import Layout from "../components/Layout";
+import Layout from "../components/Layout"
 
 function Now() {
   return (
@@ -47,7 +47,7 @@ function Now() {
         </small>
       </div>
     </Layout>
-  );
+  )
 }
 
-export default Now;
+export default Now

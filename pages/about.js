@@ -1,4 +1,4 @@
-import Layout from "../components/Layout";
+import Layout from "../components/Layout"
 
 function About() {
   return (
@@ -26,7 +26,7 @@ function About() {
         </p>
       </div>
     </Layout>
-  );
+  )
 }
 
-export default About;
+export default About
