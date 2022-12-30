@@ -2,6 +2,7 @@
   "name": "palf",
   "version": "1.0.0",
   "description": "Mark Palfreeman",
+<<<<<<< HEAD
   "main": "app.js",
   "scripts": {
     "dev": "next",
@@ -9,19 +10,28 @@
     "start": "next start",
     "deploy": "npm run build && surge out palf.co"
   },
+=======
+  "main": "",
+  "scripts": {},
+>>>>>>> 201caf0 (delete all next files to prep for astro)
   "repository": {
     "type": "git",
     "url": "https://github.com/markpalfreeman/palf.git"
   },
   "keywords": [
+    "ui engineer",
     "web developer",
+    "front-end",
+    "frontend",
     "javascript",
     "html",
     "css",
     "react",
     "blog",
     "web development",
-    "front-end"
+    "web components",
+    "ui",
+    "ux"
   ],
   "author": "Mark Palfreeman <mark@palf.co>",
   "license": "ISC",
@@ -29,6 +39,7 @@
     "url": "https://github.com/markpalfreeman/palf/issues"
   },
   "homepage": "https://github.com/markpalfreeman/palf",
+<<<<<<< HEAD
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.7",
     "next": "^9.3.2",
@@ -40,4 +51,8 @@
   "devDependencies": {
     "now": "^7.4.0"
   }
+=======
+  "dependencies": {},
+  "devDependencies": {}
+>>>>>>> 201caf0 (delete all next files to prep for astro)
 }

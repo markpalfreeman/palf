@@ -1,3 +1,3 @@
-# Palf
-Mark Palfreeman - personal website
+# Mark Palfreeman
 
+Mark Palfreeman - personal website
