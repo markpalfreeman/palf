@@ -1,11 +1,11 @@
 ---
-layout: '../layouts/BlogPost.astro'
-title: 'About'
-description: 'Lorem ipsum dolor sit amet'
-updatedDate: 'December 30 2022'
+layout: "../layouts/BlogPost.astro"
+title: "About"
+description: "Lorem ipsum dolor sit amet"
+updatedDate: "December 30 2022"
 ---
 
-## Hi 👋
+## It's Me, Hi 👋
 
 Aside from being a web developer, I'm a husband, dad, drummer, entrepreneur, and [photographer](https://instagram.com/markpalfreeman). In my spare time, I enjoy getting outside in the PNW 🌲, music, soccer, whiskey, and [books](https://www.goodreads.com/markpalfreeman).
 

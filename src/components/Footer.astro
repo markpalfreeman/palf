@@ -1,13 +1,16 @@
 ---
+import { SITE_TITLE } from "../config";
+
 const today = new Date();
 ---
 
 <footer>
-	&copy; {today.getFullYear()} YOUR NAME HERE. All rights reserved.
+  &copy; {today.getFullYear()} {SITE_TITLE}
 </footer>
 <style>
-	footer {
-		padding: 25px;
-		text-align: center;
-	}
+  footer {
+    border-top: 1px solid gray;
+    padding: 1rem 0;
+    font-size: 0.7rem;
+  }
 </style>

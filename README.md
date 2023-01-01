@@ -1,3 +1,3 @@
 # Mark Palfreeman
 
-Mark Palfreeman - personal website
+My personal website, rewritten with [Astro](https://astro.build).
