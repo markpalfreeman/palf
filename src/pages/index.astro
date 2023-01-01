@@ -14,7 +14,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
     <Header title={SITE_TITLE} />
     <main>
       <blockquote>👷‍♂️ This site is actively under construction!</blockquote>
-      <h1>I'm Mark.</h1>
+      <h1>I'm <mark>Mark</mark>.</h1>
       <p>I'm a UI engineer in the Seattle area building modern, maintainable user experiences on the web.</p>
 
       <p>I'm also an advocate for people-first company culture, remote work, and constant learning.</p>
@@ -22,3 +22,11 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
     <Footer />
   </body>
 </html>
+
+<style>
+  h1 {
+    font-size: 6rem;
+    line-height: 1.2;
+    margin: 0.25em 0;
+  }
+</style>

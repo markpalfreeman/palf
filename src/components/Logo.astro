@@ -1,0 +1,22 @@
+---
+export interface Props {
+  color?: string;
+  width?: number;
+}
+
+let { color = "black", width = 100 } = Astro.props;
+---
+
+<svg width={width} viewBox="0 0 303 160" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+  <path d="M239.7 5.5H170.8V44.8H239.7C252.3 44.8 262.6 55.1 262.6 67.7C262.6 80.3 252.3 90.6 239.7 90.6H203.5H202.9C192.3 69.9 170.7 56.6 147.5 56.6C139.6 56.6 131.9 58.1 124.6 61V58.8H124.5C122.5 26.5 95.1 0.5 62.5 0.5C28.2 0.5 0.299988 28.4 0.299988 62.7V159.7H39.6V62.7C39.6 50.1 49.9 39.8 62.5 39.8C75.1 39.8 85.4 50.1 85.4 62.7V159.7H124.7V118.8C124.7 106.2 135 95.9 147.6 95.9C160.2 95.9 170.5 106.2 170.5 118.8V157.2L170.6 159.7H209.9V130H239.9C274.2 130 302.1 102.1 302.1 67.8C302.1 33.5 274 5.5 239.7 5.5Z" fill={color}/>
+</svg>
+
+<style>
+  svg:hover {
+    transform: scale(1.2);
+    transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  svg:hover path {
+    fill: #555;
+  }
+</style>

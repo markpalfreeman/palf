@@ -1,7 +1,7 @@
 ---
 layout: "../layouts/BlogPost.astro"
 title: "Now"
-description: "Lorem ipsum dolor sit amet"
+description: "What Mark Palfreeman is doing now"
 updatedDate: "December 30 2022"
 ---
 
