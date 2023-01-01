@@ -43,9 +43,11 @@ const {
         {pubDate && <time>{pubDate}</time>}
         {
           updatedDate && (
-            <div>
-              Last updated on <time>{updatedDate}</time>
-            </div>
+            <small>
+              <i>
+                Last updated on <time>{updatedDate}</time>
+              </i>
+            </small>
           )
         }
         <hr />
