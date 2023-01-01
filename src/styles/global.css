@@ -1,10 +1,5 @@
-/*
-  The CSS in this style tag is based off of Bear Blog's default CSS.
-  https://github.com/HermanMartinus/bearblog/blob/297026a877bc2ab2b3bdfbd6b9f7961c350917dd/templates/styles/blog/default.css
-  License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
- */
 body {
-  font-family: Merriweather, sans-serif;
+  font-family: IBM Plex Sans, sans-serif;
   margin: auto;
   padding: 20px;
   max-width: 65ch;
@@ -16,19 +11,8 @@ body {
   color: #444;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-strong,
-b {
-  color: #222;
-}
-
 a {
-  color: #3273dc;
+  color: cornflowerblue;
 }
 
 nav a {
@@ -75,4 +59,13 @@ blockquote {
   font-style: italic;
   padding: 1em;
   margin: 0;
+}
+
+mark {
+  background-color: #f8cd57;
+}
+
+hr {
+  border: none;
+  border-bottom: 1px solid lightgray;
 }

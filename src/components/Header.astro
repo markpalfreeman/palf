@@ -1,10 +1,13 @@
 ---
 import HeaderLink from './HeaderLink.astro';
+import Logo from './Logo.astro';
 import { SITE_TITLE } from '../config';
 ---
 
 <header>
-  <h1><a href="/">{SITE_TITLE}</a></h1>
+  <a href="/" aria-label="Home">
+    <Logo width={75} color="#444"></Logo>
+  </a>
   <nav>
     <HeaderLink href="/about">About</HeaderLink>
     <HeaderLink href="/blog">Blog</HeaderLink>
@@ -13,10 +16,18 @@ import { SITE_TITLE } from '../config';
 </header>
 <style>
   header {
-    margin-bottom: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    margin-bottom: 1.5em;
   }
 
-  h1 a:not(:hover) {
+  a {
+    line-height: 0;
+  }
+
+  a:not(:hover):not(.active) {
     text-decoration: none;
     color: inherit;
   }
