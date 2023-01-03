@@ -10,7 +10,8 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "shorten": "netlify-shortener"
   },
   "repository": {
     "type": "git",
@@ -42,6 +43,7 @@
     "@astrojs/rss": "^2.0.0",
     "@astrojs/sitemap": "^1.0.0",
     "@fontsource/ibm-plex-sans": "^4.5.13",
-    "astro": "^1.8.0"
+    "astro": "^1.8.0",
+    "netlify-shortener": "^2.4.0"
   }
 }
