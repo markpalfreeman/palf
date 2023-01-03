@@ -43,7 +43,9 @@
     "@astrojs/rss": "^2.0.0",
     "@astrojs/sitemap": "^1.0.0",
     "@fontsource/ibm-plex-sans": "^4.5.13",
-    "astro": "^1.8.0",
+    "astro": "^1.8.0"
+  },
+  "devDependencies": {
     "netlify-shortener": "^2.4.0"
   }
 }
