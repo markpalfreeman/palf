@@ -1,14 +1,16 @@
-html {
-  font-size: 20px;
+html,
+body {
+  min-height: 100vh;
 }
 
 body {
+  font-size: 18px;
   font-family: IBM Plex Sans, sans-serif;
   margin: auto;
   padding: 1rem;
   max-width: 65ch;
   text-align: left;
-  background-color: #fff;
+  background-color: #ebeef0;
   word-wrap: break-word;
   overflow-wrap: break-word;
   line-height: 1.5;

@@ -6,5 +6,11 @@ import sitemap from "@astrojs/sitemap";
 // https://astro.build/config
 export default defineConfig({
   site: "https://palf.io",
-  integrations: [image(), mdx(), sitemap()],
+  integrations: [
+    image({
+      serviceEntryPoint: "@astrojs/image/sharp",
+    }),
+    mdx(),
+    sitemap(),
+  ],
 });
