@@ -10,7 +10,7 @@ body {
   padding: 1rem;
   max-width: 65ch;
   text-align: left;
-  background-color: #ebeef0;
+  /* background-color: #ebeef0; */
   word-wrap: break-word;
   overflow-wrap: break-word;
   line-height: 1.5;
