@@ -39,11 +39,11 @@
   },
   "homepage": "https://palf.io",
   "dependencies": {
-    "@astrojs/mdx": "^0.14.0",
+    "@astrojs/mdx": "^4.3.10",
     "@astrojs/rss": "^2.0.0",
     "@astrojs/sitemap": "^1.0.0",
     "@fontsource/ibm-plex-sans": "^4.5.13",
-    "astro": "^1.8.0"
+    "astro": "^5.15.7"
   },
   "devDependencies": {
     "netlify-shortener": "^2.4.0"
